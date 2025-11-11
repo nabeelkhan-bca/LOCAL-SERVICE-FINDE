@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <title>🛠 Local Service Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🧰 Local Service Finder</h1>
+
+  <div class="search-section">
+    <input type="text" id="searchBox" placeholder="🔍 नाम या क्षेत्र से खोजें...">
+  </div>
+
+  <form id="serviceForm">
+    <input type="text" id="name" placeholder="नाम" required>
+    <input type="text" id="skill" placeholder="काम / सेवा (जैसे Electrician)" required>
+    <input type="text" id="area" placeholder="क्षेत्र / पता" required>
+    <input type="tel" id="phone" placeholder="फ़ोन नंबर" required>
+    <button type="submit">➕ जोड़ें</button>
+  </form>
+
+  <table id="serviceTable">
+    <thead>
+      <tr>
+        <th>नाम</th>
+        <th>सेवा</th>
+        <th>क्षेत्र</th>
+        <th>संपर्क</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <button id="downloadBtn">⬇ Backup डाउनलोड करें</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

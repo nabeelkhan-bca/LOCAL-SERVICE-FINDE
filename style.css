@@ -1,0 +1,87 @@
+body {
+  font-family: 'Noto Sans Devanagari', sans-serif;
+  background: #f4f6f8;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.search-section {
+  margin-bottom: 15px;
+}
+
+#searchBox {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+form {
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+input, button {
+  width: 90%;
+  padding: 10px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+button {
+  background: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+table {
+  width: 95%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background: #3498db;
+  color: white;
+}
+
+td {
+  text-align: center;
+}
+
+a.call-btn {
+  color: #27ae60;
+  text-decoration: none;
+  font-weight: bold;
+}
+a.call-btn:hover {
+  text-decoration: underline;
+}
